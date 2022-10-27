@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    list-style: none;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+.main-container{
+    width: 100%;
+    text-align: center;
+    background: #020206;
+    min-height: 100vh;
+    z-index: -1;
+}
+li{
+    color: black;
+    cursor: pointer;
+}
+/* ul{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+    justify-content: space-around;
+    gap: 5%;
+    background-color: white;
+    
+} */
+a{
+    text-decoration: none;
+}
+.first-block{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+}
+span{
+    color: black;
+}
+.y{
+    font-size: 90px;
+}
+.name{
+    font-family: 'Passions Conflict', cursive;
+    align-items: baseline;
+    padding: 250px 0px;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    font-weight: 500;
+    font-size: 100px;
+    background: white;
+}
+.short-intro{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 50px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+.Style{
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.5;
+    cursor: pointer;
+}
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(255, 255, 255, 0.5);
+    opacity: 0.8;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+  }
+
+/* Project section  */
+.proheading{
+    font-size: 100px;
+}
+.project-section{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+.project{
+    font-size: 100px;
+}
+.pcontent{
+    opacity: .5;
+    top:20px;
+    width: 40%;
+    padding: 20px;
+}
+.card{
+    width: 55%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+#btn{
+    border: none;
+    background-color: #242425;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    width: 25%;
+    
+}
+
+/* aboutSection */
+.about-section{
+    /* width: 40%; */
+    font-family: 'Montserrat', sans-serif;
+    /* opacity: .5; */
+    top:20px;
+    padding: 20px;
+}
+.heading1{
+    font-size: 100px;
+    opacity: .5;
+    padding: 20px;
+}
+
+.skillheading{
+    font-size: 50px;
+    padding: 20px;
+    opacity: .5;
+}

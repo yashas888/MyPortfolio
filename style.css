@@ -3,8 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    /* color: white; */
     list-style: none;
+    font-family: 'Montserrat', sans-serif;
 }
 *::-webkit-scrollbar{
     display: none;
@@ -12,14 +13,11 @@
 .main-container{
     width: 100%;
     text-align: center;
-    background: #020206;
+    background: #1d1d1d;
     min-height: 100vh;
     z-index: -1;
 }
-li{
-    color: black;
-    cursor: pointer;
-}
+
 /* ul{
     font-family: 'Poppins', sans-serif;
     padding: 10px;
@@ -38,39 +36,36 @@ a{
     display: flex;
     justify-content: center;
     height: 100vh;
-
+    background-image: url(blank-brochures-business-cards.jpg);
+    background-size: cover;
 }
 span{
     color: black;
 }
 .y{
     font-size: 90px;
+    opacity: 0.8;
 }
 .name{
-    font-family: 'Passions Conflict', cursive;
-    align-items: baseline;
-    padding: 250px 0px;
+    align-items: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 40%;
-    font-weight: 500;
-    font-size: 100px;
-    background: white;
+    width: 50%;
 }
 .short-intro{
-    font-family: 'Passions Conflict', cursive;
-    font-size: 50px;
+    font-size: 20px;
     padding: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 70%;
 }
-.Style{
+.navigation{
     font-size: 100px;
-    font-family: 'Montserrat', sans-serif;
-    opacity: 0.5;
+    opacity: 0.8;
     cursor: pointer;
+    color: black;
 }
 hr{
     height: 12px;
@@ -83,56 +78,87 @@ hr{
     margin: 40px auto;
   }
 
-/* Project section  */
-.proheading{
-    font-size: 100px;
-}
-.project-section{
-    display: flex;
-    font-family: 'Montserrat', sans-serif;
-}
-.project{
-    font-size: 100px;
-}
-.pcontent{
-    opacity: .5;
-    top:20px;
-    width: 40%;
-    padding: 20px;
-}
-.card{
-    width: 55%;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    
-}
-#btn{
-    border: none;
-    background-color: #242425;
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-    width: 25%;
-    
-}
+
 
 /* aboutSection */
 .about-section{
-    /* width: 40%; */
-    font-family: 'Montserrat', sans-serif;
-    /* opacity: .5; */
     top:20px;
     padding: 20px;
+    color: white;
+}
+img{
+    border-radius: 10px;
+    
+}
+img:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
 }
 .heading1{
     font-size: 100px;
     opacity: .5;
     padding: 20px;
 }
+.heading{
+    width: 60%;
+    margin: 0px auto;
+}
 
 .skillheading{
     font-size: 50px;
     padding: 20px;
     opacity: .5;
+    margin-top: 20px;   
+}
+
+.skills{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.skillimg{
+    margin-top: 20px;
+    
+}
+
+/* project section */
+.projects-section{
+    color: white;
+}
+.proheading{
+    margin-bottom: 25px;
+    font-size: 100px;
+    opacity: .5;
+    padding: 20px;
+}
+.cardsec{
+    display: flex;
+    gap: 30px;
+
+}
+.card{
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    border-top:2px solid #FD2155;
+    /* border-top: #92a8d1; */
+  
+    /* border-radius: 10px; */
+    background: #1d1d1d;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    
+    text-align: center;
+  
+    transform-style: preserve-3d;
+    perspective: 1000px;
+
+    /* display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px; */
+}
+.cardtext{
+    padding: 20px;
+    color: white;
+    transform: translateZ(30px);
 }

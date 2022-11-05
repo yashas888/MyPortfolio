@@ -36,12 +36,13 @@ gsap.from(".name",{
 });
 gsap.from(".y", { duration: 2.5, ease: "bounce.out",y:-500});
 
-pro.addEventListener("click",function(){
-    gsap.to(window, {duration: 1, scrollTo: ".project-section"});
-})
 
 about.addEventListener("click",function(){
     gsap.to(window, {duration: 1, scrollTo: ".about-section"});
+})
+
+project.addEventListener("click",function(){
+    gsap.to(window, {duration: 1, scrollTo: ".proheading"});
 })
 
 

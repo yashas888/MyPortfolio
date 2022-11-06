@@ -45,6 +45,31 @@ project.addEventListener("click",function(){
     gsap.to(window, {duration: 1, scrollTo: ".proheading"});
 })
 
+// revele 
+gsap.registerPlugin(ScrollTrigger);
+
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".reveal",
+      toggleActions: "restart pause resume restart"
+    },
+    defaults: {
+      duration: 1.5,
+      ease: "sine.inOut"
+    }
+  })
+  .to(".cardsec", {
+    clipPath: "polygon(50% -150%, 170% 150%, -70% 150%)"
+  })
+  .from(
+    ".cardsec",
+    {
+      y: 150,
+      scale: 0.8,
+    },
+    0
+  );
 
 
     

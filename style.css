@@ -183,6 +183,73 @@ img:hover {
     margin-top: 10px;
 }
 
+/* Responsiveness */
+@media (max-width: 600px){
+   *{
+    
+    box-sizing: border-box;
+   }
+    /* landing page */
+    .name{
+        display: none;
+    }
+    .short-intro{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .navigation{
+        font-size: 80px;
+    }
+    .short-intro-paragraph{
+        font-size: 30px;
+    }
+
+    /* about section  */
+    .heading{
+        width: 100%;
+    }
+    .heading1{
+        align-items: center;
+        justify-content: center;
+        /* width: 100%; */
+        font-size: 70px;
+    }
+    .aboutContent1{
+        width: 90%;
+        margin: auto;
+    }
+    .skills{
+        width: 100%;
+    }
+    .skillheading{
+        font-size: 40px;
+    }
+    .skillimg{
+        width: 90%;
+        margin: auto;
+    }
+
+    /* project section  */
+    .proheading{
+        /* width: 100%; */
+        font-size: 70px;
+    }
+    .card{
+        width: 80%;
+        margin: auto;
+    }
+
+    /* contact section  */
+    .contact-heading{
+        width: 100%;
+        font-size: 70px;
+    }
+    .contact-sub-heading{
+        /* width: 90%; */
+        font-size: 30px;
+    }
+}
 
 /* svg00 */
 @keyframes float1 {

@@ -236,11 +236,12 @@ img:hover {
         font-size: 70px;
     }
     .card{
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     .cardtext{
-        font-size: 15px;
+        width: 100%;
+        font-size: 10px;
     }
 
     /* contact section  */
@@ -252,7 +253,7 @@ img:hover {
         margin: auto;
        align-items: center;
        justify-content: center;
-        width: 90%;
+        width: 100%;
         font-size: 30px;
     }
 }

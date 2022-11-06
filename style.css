@@ -87,14 +87,8 @@ hr {
 /* aboutSection */
 .about-section {
     top: 20px;
-    padding: 20px;
+    padding: 20px; 
     color: white;
-    /* min-height: 100vh; */
-}
-
-img {
-    border-radius: 10px;
-
 }
 
 img:hover {
@@ -103,6 +97,7 @@ img:hover {
 }
 
 .heading1 {
+    
     font-size: 100px;
     opacity: .5;
     padding: 20px;
@@ -127,12 +122,12 @@ img:hover {
 
 .skillimg {
     margin-top: 20px;
-
 }
 
 /* project section */
 .projects-section {
     color: white;
+    /* margin-top: 100px; */
 }
 
 .proheading {
@@ -154,16 +149,11 @@ img:hover {
     padding: 20px;
     margin: auto;
     width: 500px;
-    height: 300px;
+    height: 250px;
     border-top: 2px solid #FD2155;
-
-
-    /* border-radius: 10px; */
     background: #1d1d1d;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
-
     text-align: center;
-
     transform-style: preserve-3d;
     perspective: 1000px;
 }
@@ -172,6 +162,25 @@ img:hover {
     padding: 20px;
     color: white;
     transform: translateZ(30px);
+}
+.cardtext:hover{
+    color: #08fdd8;
+}
+
+/* Contact sec  */
+.contact-heading{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 100px;
+    opacity: .5;
+    padding: 20px;
+}
+
+.contact-sub-heading{
+    font-size: 50px;
+    padding: 10px;
+    opacity: .5;
+    margin-top: 10px;
 }
 
 

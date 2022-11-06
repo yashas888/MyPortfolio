@@ -1,26 +1,5 @@
-// let smoother = ScrollSmoother.create({
-    //     smooth: 2,                       
-    //     effects:true
-    //   });
-    let pro = document.getElementById("projects");
 
-    gsap.from(".img1",{
-        scrollTrigger:{
-            trigger:".img1",
-            toggleActions:"restart none restart pause",
-        },
-        x: 500,
-        end:"+=300",
-    });
-    gsap.from(".img2",{
-        scrollTrigger:{
-            trigger:".img2",
-            toggleActions:"restart none restart pause"
-        },
-        x: 500,  
-    });
-   
-    
+    let pro = document.getElementById("projects");
     gsap.from(".short-intro",{
         scrollTrigger:".short-intro",
         // delay:1,
@@ -41,6 +20,10 @@ about.addEventListener("click",function(){
     gsap.to(window, {duration: 1, scrollTo: ".about-section"});
 })
 
+contact.addEventListener("click",function(){
+    gsap.to(window, {duration: 1, scrollTo: ".contact-section"});
+})
+
 project.addEventListener("click",function(){
     gsap.to(window, {duration: 1, scrollTo: ".proheading"});
 })
@@ -51,11 +34,11 @@ gsap.registerPlugin(ScrollTrigger);
 gsap
   .timeline({
     scrollTrigger: {
-      trigger: ".reveal",
-      toggleActions: "restart pause resume restart"
+      trigger: ".cardsec",
+      toggleActions: "restart pause resume pause"
     },
     defaults: {
-      duration: 1.5,
+      duration: 1,
       ease: "sine.inOut"
     }
   })
@@ -70,6 +53,8 @@ gsap
     },
     0
   );
+
+  
 
 
     

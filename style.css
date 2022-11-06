@@ -186,7 +186,6 @@ img:hover {
 /* Responsiveness */
 @media (max-width: 600px){
    *{
-    
     box-sizing: border-box;
    }
     /* landing page */
@@ -194,7 +193,7 @@ img:hover {
         display: none;
     }
     .short-intro{
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         width: 100%;
     }
@@ -202,7 +201,8 @@ img:hover {
         font-size: 80px;
     }
     .short-intro-paragraph{
-        font-size: 30px;
+        width: 100%;
+        font-size: 20px;
     }
 
     /* about section  */
@@ -239,6 +239,9 @@ img:hover {
         width: 80%;
         margin: auto;
     }
+    .cardtext{
+        font-size: 15px;
+    }
 
     /* contact section  */
     .contact-heading{
@@ -246,7 +249,10 @@ img:hover {
         font-size: 70px;
     }
     .contact-sub-heading{
-        /* width: 90%; */
+        margin: auto;
+       align-items: center;
+       justify-content: center;
+        width: 90%;
         font-size: 30px;
     }
 }

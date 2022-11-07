@@ -213,7 +213,7 @@ img:hover {
         align-items: center;
         justify-content: center;
         /* width: 100%; */
-        font-size: 70px;
+        font-size: 50px;
     }
     .aboutContent1{
         width: 90%;
@@ -223,7 +223,7 @@ img:hover {
         width: 100%;
     }
     .skillheading{
-        font-size: 40px;
+        font-size: 25px;
     }
     .skillimg{
         width: 90%;
